@@ -1,5 +1,6 @@
 class Employee
-  attr_reader :id, :username, :password
+  attr_reader :username, :password, :role
+  attr_accessor :id
   # STATE
   # - id
   # - username
